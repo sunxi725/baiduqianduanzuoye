@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>作业</title>
+<style type="text/css">
+	
+html{
+	 width: 100%;
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+}
+body{
+	background-color: #DEDEDE;
+	 width: 100%;
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+}
+
+
+	.pic{
+		padding-left: 50px;
+		padding-top: -30px;
+		padding-bottom: 100px;
+		width: 100px;
+		height: 100px;
+		border-style: solid;
+		border-color: #CDCDCD;
+		border-width: 0.5px;
+		margin-top: 10px;
+		margin-left: 50px;
+
+	}
+	.pic img{
+display: block;
+width: 100px;
+height: 100px;
+padding-top: 25px;
+position: relative;
+left: 50%;
+transform: translateX(-60%);
+
+	}
+	.pic p{
+		position: relative;
+		left: 50%;
+transform: translateX(-60%);
+	}
+	.header ul{
+		float: right;
+		padding: 20px;
+		
+margin-top:auto;		
+		margin-right: 10px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+
+	}
+	.header li{
+		float: left;
+		margin: 10px;
+		color: black;
+		text-indent: 5px;
+		
+padding: 5px;
+	}
+	.header img{
+		width: 150px;
+		
+		height: 80px;
+		margin-left: 10px;
+	}
+	.header{
+		background-color: #333333;
+		height: 60px;
+
+	}
+	.header a{
+		text-decoration:none;
+		
+	}
+	.header a:link{
+color: #FFFFFF;
+	}
+	.header a:visited{
+		color: white;
+
+	}
+	.sh{
+		background-color: white;
+		
+		width: 90%;
+		height: 120%;
+		border-bottom-style: outset;
+		border-right-style: outset;
+border-top-style:solid;
+border-left-style:solid;
+border-top-width: 0.25px;
+border-left-width: 0.25px;
+border-top-color: #CDCDCD;
+border-left-color:#CDCDCD;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		line-height: 1.5;
+	}
+	.sh h3{
+		color: #888B84;
+	}
+	.aw{
+color: #888B84;
+font-size: 10px;
+	}
+	.sh .s2{
+		text-indent: 30px;
+		font-family: '黑体';
+	
+	}
+	.sh .s3{
+		font-family: '黑体';
+		margin-top:  -40px;
+	}
+	.sw{
+		background-color: white;
+		
+		width: 90%;
+		height: 120%;
+		border-bottom-style: outset;
+		border-right-style: outset;
+border-top-style:solid;
+border-left-style:solid;
+border-top-width: 0.25px;
+border-left-width: 0.25px;
+border-top-color: #CDCDCD;
+border-left-color:#CDCDCD;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		line-height: 1.5;
+		font-family: '黑体';
+	}
+	.sw h3{
+		color: #888B84;
+	}
+	.sw .s2{
+		text-indent: 20px;
+	}
+	.imgclass{
+		background-color: white;
+		
+		width: 90%;
+		height: 350%;
+		border-bottom-style: outset;
+		border-right-style: outset;
+border-top-style:solid;
+border-left-style:solid;
+border-top-width: 0.25px;
+border-left-width: 0.25px;
+border-top-color: #CDCDCD;
+border-left-color:#CDCDCD;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		line-height: 1.5;
+	}
+	.last{
+		background-color: white;
+		
+		width: 90%;
+		height: 80%;
+		border-bottom-style: outset;
+		border-right-style: outset;
+border-top-style:solid;
+border-left-style:solid;
+border-top-width: 0.25px;
+border-left-width: 0.25px;
+border-top-color: #CDCDCD;
+border-left-color:#CDCDCD;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		line-height: 1.5;
+		font-family: '黑体';
+	}
+	.last h3{
+		color: #888B84;
+	}
+	.last .s4{
+		font-size: 12px;
+		color: #888B84;
+	}
+	
+	.tableN td{
+width: 400px;
+border-style: solid;
+		border-width: 1px;
+		border-color: #E6E6E6;
+	}
+	.black{
+		background-color: #333333;
+		color: white;
+	}
+	.s5{
+		background-color: #CCCCCC;
+	}
+	.another{
+		background-color: white;
+		
+		width: 90%;
+		height: 110%;
+		border-bottom-style: outset;
+		border-right-style: outset;
+border-top-style:solid;
+border-left-style:solid;
+border-top-width: 0.25px;
+border-left-width: 0.25px;
+border-top-color: #CDCDCD;
+border-left-color:#CDCDCD;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+	}
+	.shuxian{
+		width: 4px;
+		height: 50px;
+		background-color: #CBCBCB;
+		float: left;
+		margin-right: 20px;
+
+	}
+	.another .he{
+		margin-top: 15px;
+		font-family: '黑体';
+		font-size: 20px;
+	}
+	
+		form{
+			padding-left: 200px;
+			font-family: '黑体';
+
+
+
+		}
+		.geshi{
+			padding-left: 150px;
+			color:grey;
+			font-size: 12px;
+			font-family: '黑体';
+			padding-top: 10px;
+			
+		}
+		.shang{
+			margin-top: 10px;
+		}
+		textarea{
+			width: 500px;
+			height: 50px;
+			
+		}
+		button{
+			margin-top: 100px;
+			position: relative;
+			left: 50%;
+			transform: translateX(-60%);
+			width: 1000px;
+			height: 50px;
+		margin-bottom: 100px;
+background-color: #3355D0;
+color: white;
+		}
+		.geren{
+			float: left;
+		}
+		.zuihou{
+			width: 100%;
+			height:50px;
+			background-color: black;
+			color: white;
+			
+		}
+.zuihou p{
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<img src="http://a3.qpic.cn/psb?/4cf569b4-a174-40a0-a190-6b6ad906ee33/Z9zYImbj7toMOh9xzXrWfvgmSVKJe9eDB1zc98ykkpA!/b/dB8BAAAAAAAA&bo=PAKnAQAAAAADB7o!&rf=viewer_4">
+<ul>
+	<li><a href="#">导航链接一</a></li>
+	<li><a href="#">导航链接二</a></li>
+	<li><a href="#">导航链接三</a></li>
+	<li><a href="#">导航链接四</a></li>
+	</ul>
+</div>
+<div class="sh">
+	<h2>文章一级标题</h2>
+<h3>文章二级标题</h3>
+<p class="aw">文章作者 文章发表时间</p>
+<p class="s2">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px">
+<p class="s2">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p><br>
+<p class="s3">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p></p>
+</div>
+<div class="sw">
+<h2>另一篇文章一级标题</h2>
+<h3>文章二级标题</h3>
+<p class="aw">文章作者 文章发表时间</p>
+<p class="s2">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px">
+<ul>
+	<li>列表项目一</li>
+	<li>列表项目二</li>
+	<li>列表项目三</li>
+</ul>
+</div>
+<div class="imgclass">
+<h2>图片</h2>
+
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+<div class="pic">
+	<p>好看的图片<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488126410282&di=51061e361931692e2dec4a48a3cbdae4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D3763528701%2C1356287679%26fm%3D214%26gp%3D0.jpg" width="300px" height="250px" width="300px" height="250px" ></p>
+</div>
+</div>
+，<div class="last">
+<h2>最后一篇文章一级标题</h2>
+<h3>文章二级标题</h3>
+<p class="s4">文章作者 文章发表时间
+<ol>
+	<li>排名1</li>
+	<li>排名2</li>
+	<li>排名3</li>
+</ol></p>
+<p>下面是一个表格，给表格加一个border="1"好让你看出这是一个表格
+<table  class="tableN" border="0" cellspacing="0" cellpadding="0">
+	<tr><td class="black">表头</td><td class="black">表头</td><td class="black">表头</td></tr>
+	<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="*">操作</a></td></tr>
+	<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="*">操作</a></td></tr>
+
+	<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="*">操作</a></td></tr>
+	<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="*">操作</a></td></tr>
+	<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="*">操作</a></td></tr>
+	<tr><td class="s5">总计</td><td colspan="2" class="s5">1000</td></tr>
+</table></p>
+</div>
+<div class="another">
+<div class="shuxian"></div>
+<h4 class="he">这里以后是一个侧栏，这是侧栏的标题</h4>
+<form>
+
+请输入邮箱地址：<input type="text" name="no1" placeholder="这是一个文本输入框" ><br>
+
+<div class="geshi">邮箱地址请按要求格式输入</div><br>
+
+请输入密码：&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" name="no2" placeholder="..........."><br>
+
+<div class="shang">请重复输入密码：<input type="text" name="no3" placeholder=".........."></div><br>
+
+<div class="geshi">密码请为6-16位英文数字</div><br>
+
+性别：<input type="radio" name="no3" value="man">男<input type="radio" name="no3" value="female">女 <br>
+<div class="shang">城市：<select name="city">
+	<option selected="selected">北京</option>
+	<option >上海</option>
+	<option >广东</option>
+
+</select></div>
+<br>
+<div class="shang">爱好：<input type="checkbox" name="sport">运动<input type="checkbox" name="art">艺术<input type="checkbox" name="science">科学 </div><br>
+	<div class="geren">个人描述：</div><textarea cols="20" rows="2" >这是一个多行输入框，请输入您的个人描述</textarea><br>
+	<button>确认提交</button></form>
+
+</div>
+<div class="zuihou">
+<p>版权所有&copy;</p>
+</div>
+</body>
+</html>
